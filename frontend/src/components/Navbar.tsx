@@ -88,7 +88,7 @@ export const Navbar = ({ onMenuToggle, sidebarOpen }: NavbarProps) => {
               <button
                 onClick={handleMobileMenuToggle}
                 aria-label="Toggle menu"
-                className="p-2 rounded-md hover:bg-slate-100 transition-colors"
+                className="lg:hidden flex p-2 rounded-md hover:bg-slate-100 transition-colors"
               >
                 {sidebarOpen ? (
                   <X className="h-5 w-5 text-foreground" />
